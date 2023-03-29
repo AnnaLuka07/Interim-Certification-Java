@@ -10,7 +10,7 @@ public class Toy {
         return "Ваша призовая игрушка: " +
                 "id: " + this.getId() +
                 "; наименование: " + this.getName() +
-                "; в наличии: " + this.getСounter() +
+                "; количество: " + this.getСounter() +
                 "; вес: " + this.getWeight();
     }
 
